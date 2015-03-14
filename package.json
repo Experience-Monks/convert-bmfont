@@ -1,6 +1,6 @@
 {
   "name": "convert-bmfont",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "converts a BMFont from one format to another",
   "main": "index.js",
   "license": "MIT",
