@@ -4,6 +4,9 @@
   "description": "converts a BMFont from one format to another",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "convert-bmfont": "./cli.js"
+  },
   "author": {
     "name": "Matt DesLauriers",
     "email": "dave.des@gmail.com",
