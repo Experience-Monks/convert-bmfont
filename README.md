@@ -4,6 +4,14 @@
 
 A command-line tool to convert a [BMFont files](http://www.angelcode.com/products/bmfont/) from one format to another. Defaults to outputting a [JSON representation](https://github.com/Jam3/load-bmfont/blob/master/json-spec.md) for composition with other modules.
 
+Installation:
+
+```sh
+npm install convert-bmfont -g
+```
+
+Usage:
+
 ```sh
 #convert text to binary
 convert-bmfont Arial.xml --format bin > Arial.bin
@@ -23,6 +31,10 @@ Currently supported outputs:
 
 - JSON (default)
 - binary
+
+### See Also
+
+See [text-modules](https://github.com/mattdesl/text-modules) for related modules.
 
 ## Usage
 
