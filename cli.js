@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 var convert = require('./')
-var through = require('through')
 var argv = require('minimist')(process.argv.slice(2))
 
 if (argv._.length === 0) {
